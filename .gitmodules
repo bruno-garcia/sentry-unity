@@ -1,3 +1,6 @@
 [submodule "sentry-dotnet"]
 	path = src/sentry-dotnet-unity/sentry-dotnet
 	url = git@github.com:getsentry/sentry-dotnet.git
+[submodule "src/sentry-apple-unity/sentry-cocoa"]
+	path = src/sentry-apple-unity/sentry-cocoa
+	url = git@github.com:getsentry/sentry-cocoa.git

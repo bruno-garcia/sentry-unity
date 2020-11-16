@@ -111,10 +111,17 @@ public class SampleScript : MonoBehaviour
 #if UNITY_ANDROID
         var jo = new AndroidJavaObject("io.sentry.sample.unity.Buggy");
         jo.CallStatic("testThrow");
+#elif UNITY_IOS
+        sentry_init();
 #else
-        Debug.LogWarning("Not on Android.");
+        Debug.LogWarning("Not on Android or iOS.");
 #endif
     }
+
+#if UNITY_IOS
+    [DllImport("__Internal")]
+    private static extern void sentry_init();
+#endif
 
     public void ThrowNull() => throw null;
 

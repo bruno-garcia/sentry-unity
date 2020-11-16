@@ -12,6 +12,10 @@
       <HintPath>$(UnityPath)\UnityEditor.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="UnityEditor.iOS">
+      <HintPath>$(UnityPath)/../PlaybackEngines/MacStandaloneSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
