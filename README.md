@@ -1,4 +1,7 @@
-# sentry-unity
+# Moved to https://github.com/getsentry/sentry-unity
+
+
+sentry-unity
 
 Experimental Sentry SDK for Unity3d
 
