@@ -14,3 +14,10 @@ sentry-unity/build:*
 # Build output of Sentry.Unity
 sentry-unity/Assets/Plugins/Sentry/
 sentry-unity/Assets/Editor/Sentry/
+
+
+# Build output of sentry-apple-unity
+sentry-unity/Assets/Plugins/iOS/*.h
+sentry-unity/Assets/Plugins/iOS/*.h.meta
+sentry-unity/Assets/Plugins/iOS/*.a
+sentry-unity/Assets/Plugins/iOS/*.a.meta
